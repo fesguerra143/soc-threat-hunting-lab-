@@ -292,7 +292,7 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "schtasks"
 | project Timestamp, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/c33f9a24-0087-42f4-b372-063cbd43736a" />
+<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/6ac796f6-2861-49a7-a06d-7d9a561d2961" />
 
 
 
@@ -321,8 +321,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
 
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/8b414d25-9d67-4eaa-89cc-ad828e0d2e49" />
-
+<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/dc91ebd2-2abe-46af-9f2a-c63ea6022897" />
 
 
 
@@ -348,7 +347,8 @@ DeviceNetworkEvents
 | order by NumberOfPorts 
 ```
 
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/ae0a5944-674b-4e0c-ba47-f9683a1fa79f" />
+<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/cc9627df-ccd8-486f-8dff-ea07dac4754e" />
+
 
 
 
@@ -376,7 +376,8 @@ DeviceNetworkEvents
 | order by NumberOfPorts 
 ```
 
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/ae0a5944-674b-4e0c-ba47-f9683a1fa79f" />
+<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/5911dd96-53f2-4527-9d46-81a842395a7e" />
+
 
 
 
@@ -403,7 +404,7 @@ DeviceFileEvents
 | where FolderPath contains "cache"
 | project Timestamp, DeviceId, DeviceName, ActionType, FileName, FolderPath
 ```
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/08376383-17c7-447b-9568-3ab36e038ef8" />
+<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/eb5731-8d48-4560-9edb-3f95fe4b0fa8" />
 
 
 
@@ -434,7 +435,8 @@ DeviceProcessEvents
 | project Timestamp, FileName, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 
 ```
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/ecbe602a-4201-4419-8adf-00db6b07590c" />
+<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/5e7a7473-dea0-4ecc-ae1d-164096d8f11f" />
+
 
 
 
@@ -465,7 +467,7 @@ DeviceFileEvents
 | order by FileName
 ```
 
-<img width="1096" height="161" alt="image" src="https://github.com/user-attachments/assets/3762cf08-5831-494d-9626-a9024ab7051f" />
+<img width="1096" height="161" alt="image" src="https://github.com/user-attachments/assets/745e79e3-7575-42b2-8971-d29303f7821e" />
 
 
 
@@ -494,7 +496,8 @@ DeviceFileEvents
 | order by FileName
 ```
 
-<img width="1096" height="161" alt="image" src="https://github.com/user-attachments/assets/3762cf08-5831-494d-9626-a9024ab7051f" />
+<img width="1096" height="161" alt="image" src="https://github.com/user-attachments/assets/b406aa83-aa07-4b26-b48b-35c0fdaf54db" />
+
 
 **KQL Query Used:**
 ```
@@ -504,7 +507,8 @@ DeviceFileEvents
 | where InitiatingProcessCommandLine contatins "curl"
 ```
 
-<img width="1096" height="161" alt="image" src="https://github.com/user-attachments/assets/4e758e57-34bc-4dd2-accc-f2c32f8af6ef" />
+<img width="1096" height="161" alt="image" src="https://github.com/user-attachments/assets/c1fac376-bf9f-4e41-a3b4-c51fd4fc6e51" />
+
 
 
 
@@ -532,7 +536,8 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "wev"
 | project Timestamp, FileName, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
-<img width="1641" height="358" alt="image" src="https://github.com/user-attachments/assets/d1247291-df42-4050-b84e-5aa368da7088" />
+<img width="1641" height="358" alt="image" src="https://github.com/user-attachments/assets/f8248a42-dbc3-4f13-bcda-9725b19717f7" />
+
 
 
 
@@ -558,7 +563,8 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "add"
 | project Timestamp, FileName, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
-<img width="1678" height="358" alt="image" src="https://github.com/user-attachments/assets/628c302d-3d98-4158-9df1-655026b34832" />
+<img width="1678" height="358" alt="image" src="https://github.com/user-attachments/assets/c2bfe83d-9fcf-40e9-974c-81b46511c11f" />
+
 
 
 
@@ -588,7 +594,8 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "add"
 | project Timestamp, FileName, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
-<img width="1678" height="358" alt="image" src="https://github.com/user-attachments/assets/190fffcd-d666-423e-9505-eba6c1d07ebe" />
+<img width="1678" height="358" alt="image" src="https://github.com/user-attachments/assets/8352e1d6-2587-4ee9-9107-51ca6467331a" />
+
 
 
 ---
@@ -616,7 +623,8 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "mstsc"
 | project Timestamp, FileName, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
-<img width="1670" height="384" alt="image" src="https://github.com/user-attachments/assets/287d224c-49e8-419a-952b-9b8835205f0e" />
+<img width="1670" height="384" alt="image" src="https://github.com/user-attachments/assets/77a3421a-587a-438a-99b6-e49b9e5200b5" />
+
 
 
 ---
@@ -642,7 +650,8 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "mstsc"
 | project Timestamp, FileName, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
-<img width="1699" height="388" alt="image" src="https://github.com/user-attachments/assets/6d493c7b-b1c3-46ff-a7dd-ae073f0dedaa" />
+<img width="1699" height="388" alt="image" src="https://github.com/user-attachments/assets/272a9572-ec64-4288-89cb-17bf71fed47c" />
+
 
 
 
