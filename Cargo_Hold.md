@@ -111,14 +111,10 @@ After establishing initial access, sophisticated attackers often wait hours or d
 | Field            | Value                            |
 |------------------|----------------------------------|
 | Device Name      | azuki-sl                         |
-| Timestamp        | Nov 22, 2025 7:27:53 AM          |
+| Timestamp        | Nov 22, 2025 12:27:53 AM          |
 | Action Type      | LogonSuccess                     |
 
 
-**💡 Why it matters**  
-The IP address discovered is the new source the attacker used when returning approximately 72 hours after the initial compromise.
-Sophisticated adversaries commonly rotate infrastructure between sessions to avoid linking new activity to the original breach and to evade detection based on known-bad IPs.
-Identifying this different return IP confirms the attacker has maintained access, exercised patience (dwell time), and is now escalating the intrusion (MITRE ATT&CK TA0001 – Initial Access sustained via T1078 – Valid Accounts).
 
 **🔧 KQL Query Used**
 ```
@@ -133,21 +129,7 @@ DeviceLogonEvents
 <img width="1704" height="668" alt="image" src="https://github.com/user-attachments/assets/0178a91d-f0a5-443d-b8ed-7f2698faf0d7" />
 
 
-**🛠️ A.I. Detection Recommendation**
-```
-DeviceLogonEvents
-| where TimeGenerated > ago(30d)                          // Adjust window as needed (e.g., last 30 days)
-| where isnotempty(RemoteIP)                              // Only remote logons with a real IP
-| where LogonType in ("RemoteInteractive", "Network")     // Focus on RDP and network logons (common for attackers)
-| where AccountName !contains "$"                         // Exclude machine accounts (optional – reduces noise)
-| summarize LogonCount = count(), FirstLogon = min(TimeGenerated), LastLogon = max(TimeGenerated) by DeviceName, AccountName, RemoteIP
-| where LogonCount >= 1                                    // Or raise threshold if needed
-| order by LastLogon desc
-```
 
-<br>
-<hr>
-<br>
 <br>
 <br>
 <a id="flag-2"></a>
