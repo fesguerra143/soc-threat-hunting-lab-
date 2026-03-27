@@ -19,38 +19,7 @@ DeviceLogonEvents
 ```
 <br>
 
-<details>
-<summary><strong>📚 Table of Contents</strong></summary>
 
-- [Hunt Overview](#hunt-overview)
-
-- [🚩 Flag #1: Initial Access](#flag-1)
-- [🚩 Flag #2: Lateral Movement](#flag-2)
-- [🚩 Flag #3: Valid Accounts Abuse](#flag-3)
-- [🚩 Flag #4: Share Discovery](#flag-4)
-- [🚩 Flag #5: Remote Share Discovery](#flag-5)
-- [🚩 Flag #6: Privilege & Group Discovery](#flag-6)
-- [🚩 Flag #7: Network Discovery](#flag-7)
-- [🚩 Flag #8: Defense Evasion](#flag-8)
-- [🚩 Flag #9: Data Staging](#flag-9)
-- [🚩 Flag #10: LOLBIN Download](#flag-10)
-- [🚩 Flag #11: Credential Discovery](#flag-11)
-- [🚩 Flag #12: Bulk Data Collection](#flag-12)
-- [🚩 Flag #13: Data Compression](#flag-13)
-- [🚩 Flag #14: Tool Masquerading](#flag-14)
-- [🚩 Flag #15: LSASS Memory Dump](#flag-15)
-- [🚩 Flag #16: Data Exfiltration](#flag-16)
-- [🚩 Flag #17: Cloud Exfiltration](#flag-17)
-- [🚩 Flag #18: Registry Persistence](#flag-18)
-- [🚩 Flag #19: Beacon Filename](#flag-19)
-- [🚩 Flag #20: History File Deletion](#flag-20)
-
-- [High-Level Summary](#high-level-summary)
-
-</details>
-
-
-<br>
 <br>
 
 
