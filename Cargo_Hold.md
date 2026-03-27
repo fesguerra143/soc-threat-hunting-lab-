@@ -20,9 +20,6 @@ DeviceLogonEvents
 <br>
 
 
-<br>
-
-
 ## Hunt Overview
 
 This hunt documents a full post-compromise intrusion lifecycle on a Windows server, beginning with valid account abuse and lateral movement, progressing through credential access, bulk data collection, and exfiltration, and concluding with persistence and anti-forensic cleanup. The activity demonstrates deliberate attacker tradecraft aligned with multiple high-confidence MITRE ATT&CK techniques.
@@ -163,7 +160,7 @@ DeviceLogonEvents
 ```
 **🖼️ Screenshot**
 [Your screenshot here]
-<img width="1743" height="221" alt="image" src="https://github.com/user-attachments/assets/b6298088-5baa-4103-8f32-8323251297cb" />
+<img  alt="image" src="https://github.com/user-attachments/assets/b6298088-5baa-4103-8f32-8323251297cb" />
 
 
 <br>
