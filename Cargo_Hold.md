@@ -1,15 +1,4 @@
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/91a89840-4446-4ad4-a020-94d57c079f47"
-    alt="image"
-    width="518"
-    height="777"
-  />
-</p>
 
-
-<br>
-<br>
 # INCIDENT BRIEF - Cargo Hold -Azuki Import/Export - 梓貿易株式会社
 
 **📋 INCIDENT BRIEF**
