@@ -622,7 +622,8 @@ DeviceFileEvents
 | project TimeGenerated, ActionType, DeviceName, FileName, FolderPath, InitiatingProcessCommandLine
 ```
 **🖼️ Screenshot**
-<img width="1770" height="689" alt="image" src="https://github.com/user-attachments/assets/f65f2dc2-5671-46f1-923a-f6d721a5399d" />
+<img alt="image" src="https://github.com/user-attachments/assets/5fba49d2-b030-4e57-addc-33f423380276" />
+
 
 
 **🛠️ Detection Recommendation**
@@ -687,7 +688,8 @@ DeviceProcessEvents
 | order by TimeGenerated asc
 ```
 **🖼️ Screenshot**
-<img width="1759" height="616" alt="image" src="https://github.com/user-attachments/assets/8ca0b80b-02fa-40e9-8bfb-d78f90ab84fc" />
+<img  alt="image" src="https://github.com/user-attachments/assets/14283db2-9a40-4b2f-a821-3dd31cb6aafe" />
+
 
 
 **🛠️ Detection Recommendation**
@@ -751,7 +753,7 @@ DeviceProcessEvents
 | order by TimeGenerated desc
 ```
 **🖼️ Screenshot**
-<img width="1733" height="575" alt="image" src="https://github.com/user-attachments/assets/bdb2cc46-dde6-4ae8-a280-8816581b8c98" />
+<img  alt="image" src="https://github.com/user-attachments/assets/b70a2ef8-c111-4687-ae79-b97958c16e50" />
 
 **🛠️ Detection Recommendation**
 
@@ -813,7 +815,8 @@ DeviceFileEvents
 | order by TimeGenerated desc
 ```
 **🖼️ Screenshot**
-<img width="1745" height="208" alt="image" src="https://github.com/user-attachments/assets/5d17ebfb-dbd6-421a-935c-91f7fee67ee4" />
+<img  alt="image" src="https://github.com/user-attachments/assets/255ba8b1-dc93-43c9-846f-06b0b501e20a" />
+
 
 
 
@@ -879,7 +882,8 @@ DeviceProcessEvents
 
 ```
 **🖼️ Screenshot**
-<img width="1764" height="283" alt="image" src="https://github.com/user-attachments/assets/f99807a4-ff55-422d-bb73-744b73a4fe3a" />
+<img alt="image" src="https://github.com/user-attachments/assets/6f46fb4e-4787-4313-957d-e0de4038b5b4" />
+
 
 
 
@@ -944,7 +948,8 @@ DeviceProcessEvents
 | order by TimeGenerated desc
 ```
 **🖼️ Screenshot**
-<img width="1750" height="239" alt="image" src="https://github.com/user-attachments/assets/90aafcc2-13fe-40e0-99a6-8214f168d4d0" />
+<img  alt="image" src="https://github.com/user-attachments/assets/d84d4173-12a0-437a-9944-baeb1591bc2f" />
+
 
 
 
@@ -1009,7 +1014,7 @@ DeviceNetworkEvents
 | order by TimeGenerated desc
 ```
 **🖼️ Screenshot**
-<img width="1538" height="212" alt="image" src="https://github.com/user-attachments/assets/7de50878-c6cf-4a05-85a1-279ed2de406a" />
+<img alt="image" src="https://github.com/user-attachments/assets/f2d46c7a-8725-4425-bce1-565b8d01befc" />
 
 
 **🛠️ Detection Recommendation**
@@ -1071,7 +1076,8 @@ DeviceRegistryEvents
 | project TimeGenerated, DeviceName, RegistryValueName, RegistryKey, RegistryValueData, InitiatingProcessCommandLine
 ```
 **🖼️ Screenshot**
-<img width="1532" height="184" alt="image" src="https://github.com/user-attachments/assets/bda95703-7808-4a53-9028-c16b7f870f80" />
+<img alt="image" src="https://github.com/user-attachments/assets/299c60e0-5a42-42e5-84b4-0f512af1cea6" />
+
 
 
 
@@ -1134,7 +1140,8 @@ DeviceRegistryEvents
 | project TimeGenerated, DeviceName, RegistryValueName, RegistryKey, RegistryValueData, InitiatingProcessCommandLine
 ```
 **🖼️ Screenshot**
-<img width="1532" height="184" alt="image" src="https://github.com/user-attachments/assets/bda95703-7808-4a53-9028-c16b7f870f80" />
+<img alt="image" src="https://github.com/user-attachments/assets/9a1868f8-2064-49cb-8610-50e2470e4847" />
+
 
 
 **🛠️ Detection Recommendation**
@@ -1193,7 +1200,8 @@ DeviceFileEvents
 | where ActionType == "FileDel
 ```
 **🖼️ Screenshot**
-<img width="1529" height="372" alt="image" src="https://github.com/user-attachments/assets/03889e2d-5056-4e60-950e-fb1028567824" />
+<img  alt="image" src="https://github.com/user-attachments/assets/2baac6b7-1119-4dbd-bb89-11bdd1e3adad" />
+
 
 
 **🛠️ Detection Recommendation**
