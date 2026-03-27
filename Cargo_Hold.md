@@ -130,7 +130,8 @@ DeviceLogonEvents
 | project Timestamp, DeviceId, DeviceName, ActionType, InitiatingProcessRemoteSessionIP, RemoteIP
 ```
 **🖼️ Screenshot**
-<img width="1704" height="668" alt="image" src="https://github.com/user-attachments/assets/ec26dcb6-667d-4b6c-a444-e7159bc1c784" />
+<img width="1704" height="668" alt="image" src="https://github.com/user-attachments/assets/0178a91d-f0a5-443d-b8ed-7f2698faf0d7" />
+
 
 **🛠️ A.I. Detection Recommendation**
 ```
