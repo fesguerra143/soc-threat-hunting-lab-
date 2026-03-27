@@ -18,7 +18,6 @@ DeviceLogonEvents
 | where DeviceName contains "azuki"
 ```
 <br>
-<br>
 
 <details>
 <summary><strong>📚 Table of Contents</strong></summary>
