@@ -103,7 +103,10 @@ After establishing initial access, sophisticated attackers often wait hours or d
 | Timestamp        | Nov 22, 2025 12:27:53 AM          |
 | Action Type      | LogonSuccess                     |
 
-
+**💡 Why it matters**  
+The IP address discovered is the new source the attacker used when returning approximately 72 hours after the initial compromise.
+Sophisticated adversaries commonly rotate infrastructure between sessions to avoid linking new activity to the original breach and to evade detection based on known-bad IPs.
+Identifying this different return IP confirms the attacker has maintained access, exercised patience (dwell time), and is now escalating the intrusion (MITRE ATT&CK TA0001 – Initial Access sustained via T1078 – Valid Accounts).
 
 **🔧 KQL Query Used**
 ```
@@ -154,26 +157,11 @@ DeviceProcessEvents
 ```
 **🖼️ Screenshot**
 
-<img width="1710" height="305" alt="image" src="https://github.com/user-attachments/assets/60033488-393f-4f7d-9964-cd614eade49b" />
+<img width="1710" height="305" alt="image" src="https://github.com/user-attachments/assets/fe3f5d67-8f13-41fe-bac5-8a50e99313d2" />
 <br>
-<img width="577" height="790" alt="image" src="https://github.com/user-attachments/assets/6f315126-7c0f-4824-81ad-4a4d062e8dd8" />
+<img width="577" height="790" alt="image" src="https://github.com/user-attachments/assets/75bf7c26-5b59-4c03-9ca4-dd07cadb2230" />
 
 
-**🛠️ A.I. Detection Recommendation**
-```
-DeviceProcessEvents
-| where TimeGenerated > ago(30d)                          // Adjust time window as needed
-| where FileName == "mstsc.exe"                           // Focus on Remote Desktop client launches
-| where ProcessCommandLine contains "/v:"                // Look for the /v switch specifying a target
-| extend Target = extract(@"/v:([^ ]+)", 1, ProcessCommandLine)  // Extract the target IP/hostname
-| project TimeGenerated, DeviceName, AccountName, ProcessCommandLine, Target, InitiatingProcessCommandLine
-| order by TimeGenerated desc
-```
-
-
-<br>
-<hr>
-<br>
 <br>
 <br>
 <a id="flag-3"></a>
@@ -207,7 +195,8 @@ DeviceLogonEvents
 ```
 **🖼️ Screenshot**
 [Your screenshot here]
-<img width="1743" height="221" alt="image" src="https://github.com/user-attachments/assets/0ad57116-8296-4a9d-9c87-e749acd0d84d" />
+<img width="1743" height="221" alt="image" src="https://github.com/user-attachments/assets/b6298088-5baa-4103-8f32-8323251297cb" />
+
 
 <br>
 
