@@ -86,8 +86,8 @@ DeviceLogonEvents
 <img width="1704" height="668" alt="image" src="https://github.com/user-attachments/assets/0178a91d-f0a5-443d-b8ed-7f2698faf0d7" />
 
 
-
 <br>
+<hr>
 <br>
 <a id="flag-2"></a>
 ### 🚩 Flag 2: LATERAL MOVEMENT - Compromised Device
@@ -126,8 +126,8 @@ DeviceProcessEvents
 <br>
 <img width="577" height="790" alt="image" src="https://github.com/user-attachments/assets/75bf7c26-5b59-4c03-9ca4-dd07cadb2230" />
 
-
 <br>
+<hr>
 <br>
 <a id="flag-3"></a>
 ### 🚩 Flag 3: LATERAL MOVEMENT - Compromised Account
@@ -163,10 +163,6 @@ DeviceLogonEvents
 <img  alt="image" src="https://github.com/user-attachments/assets/b6298088-5baa-4103-8f32-8323251297cb" />
 
 
-<br>
-
-<img width="642" height="166" alt="image" src="https://github.com/user-attachments/assets/4021b519-fabe-4754-b5d6-af94ada9120b" />
-
 
 **🛠️ Detection Recommendation**
 ```
@@ -185,8 +181,6 @@ DeviceLogonEvents
 
 <br>
 <hr>
-<br>
-<br>
 <br>
 <a id="flag-4"></a>
 ### 🚩 Flag 4: DISCOVERY - Share Enumeration Command
@@ -283,7 +277,6 @@ DeviceProcessEvents
 | project TimeGenerated, DeviceName, AccountName, ProcessCommandLine, RemoteTarget, InitiatingProcessCommandLine
 | order by TimeGenerated desc
 ```
-
 
 
 <br>
