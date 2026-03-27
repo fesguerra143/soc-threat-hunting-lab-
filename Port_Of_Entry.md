@@ -124,7 +124,7 @@ DeviceLogonEvents
 | project Timestamp, ActionType, AccountName,  RemoteIP, RemoteIPType, RemoteDeviceName
 | order by Timestamp asc
 ```
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/b006a8b5-c003-41a4-a9ee-db66e5c470e1" />
+<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/2c5a9aa3-4466-4bec-adb5-b4403dcbe449" />
 
 
 
@@ -149,7 +149,8 @@ DeviceProcessEvents
 | where Timestamp between (startofday(datetime(2025-11-19)) .. endofday(datetime(2025-11-21)))
 | project Timestamp, DeviceName, ProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
-<img width="1709" height="488" alt="image" src="https://github.com/user-attachments/assets/4e45bc92-671c-4907-a5ee-983ccb5d7a1e" />
+<img width="1709" height="488" alt="image" src="https://github.com/user-attachments/assets/30d258b9-7666-45b1-9628-60659682f388" />
+
 
 
 
@@ -177,7 +178,8 @@ DeviceFileEvents
 | where InitiatingProcessFileName contains "powershell"
 | project Timestamp, DeviceId, DeviceName, ActionType, FileName, FolderPath
 ```
-<img width="1679" height="432" alt="image" src="https://github.com/user-attachments/assets/e837177c-b26f-438b-8964-ec650d543705" />
+<img width="1679" height="432" alt="image" src="https://github.com/user-attachments/assets/623ff0fa-2019-458b-8e17-2ecc46f56d96" />
+
 
 
 
@@ -205,7 +207,8 @@ DeviceFileEvents
 | where InitiatingProcessParentFileName contains "sense"
 ```
 
-<img width="1678" height="435" alt="image" src="https://github.com/user-attachments/assets/96a4dc36-c292-4b2b-a368-fbe8c7360c0e" />
+<img width="1678" height="435" alt="image" src="https://github.com/user-attachments/assets/95858b1f-5d27-46bc-a313-bb72fe08ff13" />
+
 
 
 
@@ -232,8 +235,7 @@ DeviceRegistryEvents
 | where RegistryValueName contains "temp"
 ```
 
-<img width="1677" height="402" alt="image" src="https://github.com/user-attachments/assets/b3839619-dc2a-40bd-9ea5-38632ba9fe5e" />
-
+<img width="1677" height="402" alt="image" src="https://github.com/user-attachments/assets/268894cc-6a82-43cc-a95e-c99ef11ec53a" />
 
 
 
@@ -261,7 +263,8 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, InitiatingProcessFileName, ProcessCommandLine, InitiatingProcessCommandLine, FolderPath, AccountName, IsProcessRemoteSession
 ```
 
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/1f681024-5ad3-4160-a844-addec2abee0b" />
+<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/e363a3a8-7e1b-4f07-a678-3d8fa81633c4" />
+
 
 
 
