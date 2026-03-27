@@ -122,7 +122,7 @@ DeviceProcessEvents
 ```
 **🖼️ Screenshot**
 
-<img width="1710" height="305" alt="image" src="https://github.com/user-attachments/assets/fe3f5d67-8f13-41fe-bac5-8a50e99313d2" />
+<img  alt="image" src="https://github.com/user-attachments/assets/fe3f5d67-8f13-41fe-bac5-8a50e99313d2" />
 <br>
 <img width="577" height="790" alt="image" src="https://github.com/user-attachments/assets/75bf7c26-5b59-4c03-9ca4-dd07cadb2230" />
 
