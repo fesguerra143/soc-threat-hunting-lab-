@@ -62,7 +62,7 @@ DeviceProcessEvents
 | where Timestamp between (datetime(2025-11-19) .. datetime(2025-11-20))
 ```
 
-<img width="1739" height="382" alt="image" src="https://github.com/user-attachments/assets/32891371-965d-46a6-9699-eea4a0c0a5ed" />
+<img  alt="image" src="https://github.com/user-attachments/assets/32891371-965d-46a6-9699-eea4a0c0a5ed" />
 
 
 **Identified System:**
