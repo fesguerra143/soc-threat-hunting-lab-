@@ -102,7 +102,7 @@ azuki-fileserver01
 | Field            | Value                                      |
 |------------------|--------------------------------------------|
 | Host             | azuki-sl                          |
-| Timestamp        | Nov 22, 2025 7:38:47 AM              |
+| Timestamp        | Nov 22, 2025 12:38:47 AM              |
 | Process          | Microsoft Remote Desktop Connection                  |
 | Parent Process   | powershell.exe                    |
 | Command Line     | `"mstsc.exe" /V:10.1.0.188 `                 |
@@ -142,7 +142,7 @@ fileadmin
 | Field            | Value                                      |
 |------------------|--------------------------------------------|
 | Host             | azuki-fileserver01                         |
-| Timestamp        | Nov 22, 2025 7:38:49 AM                    |
+| Timestamp        | Nov 22, 2025 12:38:49 AM                    |
 | Action Type      | Logon Success                              |
 | Remote IP        | 10.1.0.204                                 |
 
@@ -195,7 +195,7 @@ Network share enumeration reveals available data repositories and helps attacker
 | Field            | Value                                     |
 |------------------|-------------------------------------------|
 | Host             | azuki-fileserver01                        |
-| Timestamp        | Nov 22, 2025 7:40:54 AM                   |
+| Timestamp        | Nov 22, 2025 12:40:54 AM                   |
 | Process          |      net.exe                              |
 | Parent Process   | powershell.exe                            |
 | Command Line     | `"net.exe" share   `                      |
@@ -245,7 +245,7 @@ Attackers enumerate remote network shares to identify accessible file servers an
 | Field            | Value                                      |
 |------------------|--------------------------------------------|
 | Host             | azuki-fileserver01                         |
-| Timestamp        | Nov 22, 2025 7:42:01 AM                    |
+| Timestamp        | Nov 22, 2025 12:42:01 AM                    |
 | Process          | net.exe                                    |
 | Parent Process   | powershell.exe                             |
 | Command Line     | `net.exe" view \\10.1.0.188`               |
