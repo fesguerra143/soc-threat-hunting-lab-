@@ -297,7 +297,7 @@ Understanding current user privileges and group memberships helps attackers dete
 | Field            | Value                                      |
 |------------------|--------------------------------------------|
 | Host             | azuki-fileserver01                         |
-| Timestamp        | 2025-11-22T00:42:24.1217046Z               |
+| Timestamp        | 2025-11-22T00:40:09.3456568Z               |
 | Process          | whoami.exe                     |
 | Parent Process   | "powershell.exe                      |
 | Command Line     | `"whoami.exe" /all`                 |
