@@ -1,15 +1,4 @@
 
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/337bb215-8833-4653-b570-93c443bd9c11"
-    width="1200"
-    alt="Threat Hunt Cover Image"
-  />
-</p>
-
-
-
-
 
 # 🛡️ Threat Hunt Report – Deep in the Water
 
@@ -35,8 +24,6 @@ This threat hunt investigated a full ransomware intrusion within the Azuki Logis
 - **Data Sources:** Microsoft Defender for Endpoint (Advanced Hunting telemetry: DeviceProcessEvents, DeviceNetworkEvents, DeviceFileEvents, DeviceRegistryEvents)  
 - **Timeframe:** 2025-11-24 → 2025-11-25  
 - **Threat Hunt Intake Form:** [Azuki Ransomware Scenario – Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdGLxM71I2kXx4L9MhB6ipWMKCDXJxJRjXTNg_3gK1SkDmQ8g/viewform)
-
-![Uploading image.png…]()
 
 ---
 
