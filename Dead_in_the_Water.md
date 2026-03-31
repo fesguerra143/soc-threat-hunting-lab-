@@ -22,7 +22,7 @@ This threat hunt investigated a full ransomware intrusion within the Azuki Logis
 
 - **Environment:** Azuki Logistics corporate Windows and Linux environment, including user workstations and backup infrastructure  
 - **Data Sources:** Microsoft Defender for Endpoint (Advanced Hunting telemetry: DeviceProcessEvents, DeviceNetworkEvents, DeviceFileEvents, DeviceRegistryEvents)  
-- **Timeframe:**
+- **Timeframe:2025-11-24 → 2025-11-25**
 ---
 
 ## 📚 Table of Contents
