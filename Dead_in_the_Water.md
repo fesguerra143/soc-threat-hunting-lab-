@@ -22,9 +22,7 @@ This threat hunt investigated a full ransomware intrusion within the Azuki Logis
 
 - **Environment:** Azuki Logistics corporate Windows and Linux environment, including user workstations and backup infrastructure  
 - **Data Sources:** Microsoft Defender for Endpoint (Advanced Hunting telemetry: DeviceProcessEvents, DeviceNetworkEvents, DeviceFileEvents, DeviceRegistryEvents)  
-- **Timeframe:** 2025-11-24 → 2025-11-25  
-- **Threat Hunt Intake Form:** [Azuki Ransomware Scenario – Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdGLxM71I2kXx4L9MhB6ipWMKCDXJxJRjXTNg_3gK1SkDmQ8g/viewform)
-
+- **Timeframe:**
 ---
 
 ## 📚 Table of Contents
@@ -135,15 +133,15 @@ In ransomware and destructive intrusion campaigns, attackers deliberately pivot 
 ### 🔧 KQL Query Used
 ```
 DeviceNetworkEvents
-| where TimeGenerated >= ago(45d)
+| where Timestamp between (startofday(datetime(2025-11-25)) .. endofday(datetime(2025-11-25)))
 | where RemotePort == 22
-| where RemoteIP has "10." or RemoteIP has "172." or RemoteIP has "192."
 | project TimeGenerated, DeviceName, InitiatingProcessCommandLine, RemoteIP
 | order by TimeGenerated asc
 ```
 
 ### 🖼️ Screenshot
-<img width="1527" height="142" alt="image" src="https://github.com/user-attachments/assets/da941ffe-cb3a-45bb-8468-28288009e8e2" />
+<img  alt="image" src="https://github.com/user-attachments/assets/07e3e411-a88c-4d39-8fdf-d33cb6159e5c" />
+
 
 
 ### 🛠️ Detection Recommendation
@@ -191,8 +189,7 @@ DeviceNetworkEvents
 ```
 
 ### 🖼️ Screenshot
-<img width="1562" height="133" alt="image" src="https://github.com/user-attachments/assets/b4a20f90-ae37-41cd-8182-27a5210b6726" />
-
+<img  alt="image" src="https://github.com/user-attachments/assets/20f6a686-3287-4d7b-b34e-2e9461ba72a6" />
 
 
 ### 🛠️ Detection Recommendation
@@ -234,7 +231,7 @@ DeviceNetworkEvents
 ```
 
 ### 🖼️ Screenshot
-<img width="1543" height="126" alt="image" src="https://github.com/user-attachments/assets/c728035b-715e-4bc6-992d-60dbf46addf8" />
+<img  alt="image" src="https://github.com/user-attachments/assets/fd4a74e2-9d71-46d3-a14b-ed5f8fc2d22c" />
 
 
 ### 🛠️ Detection Recommendation
@@ -280,8 +277,7 @@ DeviceProcessEvents
 ```
 
 ### 🖼️ Screenshot
-<img width="1517" height="107" alt="image" src="https://github.com/user-attachments/assets/2d66000c-c33c-4fdc-8d2a-1e2dd78641be" />
-
+<img  alt="image" src="https://github.com/user-attachments/assets/d70344ba-e0fb-4a3c-81ff-02e862430f69" />
 
 ### 🛠️ Detection Recommendation
 
@@ -326,7 +322,8 @@ DeviceProcessEvents
 ```
 
 ### 🖼️ Screenshot
-<img width="1525" height="199" alt="image" src="https://github.com/user-attachments/assets/c972a0a2-7c18-4ac0-b01c-cc2dc7c23c6d" />
+<img  alt="image" src="https://github.com/user-attachments/assets/402f92cd-6e21-4259-bd2d-a75532694f06" />
+
 
 
 ### 🛠️ Detection Recommendation
