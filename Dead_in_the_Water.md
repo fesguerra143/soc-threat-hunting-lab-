@@ -324,7 +324,7 @@ DeviceProcessEvents
 ### 🖼️ Screenshot
 <img  alt="image" src="https://github.com/user-attachments/assets/402f92cd-6e21-4259-bd2d-a75532694f06" />
 
-![pic5](https://github.com/user-attachments/assets/730a2571-70be-416a-ac09-c86ebd4c9066)
+
 
 
 ### 🛠️ Detection Recommendation
@@ -672,7 +672,7 @@ DeviceProcessEvents
 ```
 
 ### 🖼️ Screenshot
-<img width="575" height="106" alt="image" src="https://github.com/user-attachments/assets/5e7b7af1-8366-40d4-a462-e500cede2d13" />
+<img  alt="image" src="https://github.com/user-attachments/assets/5e7b7af1-8366-40d4-a462-e500cede2d13" />
 
 
 
@@ -766,7 +766,7 @@ DeviceProcessEvents
 ```
 
 ### 🖼️ Screenshot
-<img width="1107" height="195" alt="image" src="https://github.com/user-attachments/assets/4b5ea642-da6b-40ce-bfdd-0e627412beb2" />
+<img alt="image" src="https://github.com/user-attachments/assets/4b5ea642-da6b-40ce-bfdd-0e627412beb2" />
 
 
 
@@ -1081,7 +1081,7 @@ DeviceProcessEvents
 ```
 
 ### 🖼️ Screenshot
-<img width="541" height="131" alt="image" src="https://github.com/user-attachments/assets/e829d499-b48a-4da0-b25a-4a9ce2ee8914" />
+<img  alt="image" src="https://github.com/user-attachments/assets/e829d499-b48a-4da0-b25a-4a9ce2ee8914" />
 
 
 ### 🛠️ Detection Recommendation
@@ -1261,7 +1261,7 @@ DeviceProcessEvents
 ```
 
 ### 🖼️ Screenshot
-<img width="801" height="150" alt="image" src="https://github.com/user-attachments/assets/75e03ffc-00e5-4c5d-9d53-3823ad8a5846" />
+<img alt="image" src="https://github.com/user-attachments/assets/75e03ffc-00e5-4c5d-9d53-3823ad8a5846" />
 
 
 
